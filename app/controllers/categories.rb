@@ -1,3 +1,8 @@
-get '/categories' do
-  erb :index
+get '/' do
+
+  @categories = Category.all
+
+  erb :categories
 end
+
+

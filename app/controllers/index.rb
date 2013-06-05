@@ -1,7 +1,7 @@
-get '/' do
-  # Look in app/views/index.erb
-  erb :index
-end
+# get '/' do
+#   # Look in app/views/index.erb
+#   erb :categories
+# end
 
 get '/users' do
   @users = User.all 

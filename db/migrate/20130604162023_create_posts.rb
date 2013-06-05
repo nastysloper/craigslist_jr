@@ -10,3 +10,6 @@ class CreatePosts < ActiveRecord::Migration
     end
   end
 end
+
+# (:description => 'This is sweet', :price => 2.00, :title => 'This is a title', 
+#                   :user_id => 2, :category_id => 1)

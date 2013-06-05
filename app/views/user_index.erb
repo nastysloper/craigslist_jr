@@ -1,0 +1,15 @@
+<ul>
+<% @users.each do |user| %>
+<li><a href="/users/<%= user.id %>"><%= user.name %></a></li>
+
+<% end %>
+</ul>
+
+<form action="/users" method="post">
+<label>First Name:</label>
+<input type="text" name="first_name">
+<p></p>
+<label>Last Name:</label>
+<input type="text" name="last_name">
+<input type="submit">
+</form>
